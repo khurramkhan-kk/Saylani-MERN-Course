@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript array</title>
+</head>
+<body>
+    
+    
+
+
+    <script>
+// =========Array in javscript =========
+
+// var name1,name2,name2,name4,name5;
+// name1="kamran";
+// name2="Ali";
+
+var basketballteamplayernames= ["kamran",3,"Ali","Jawad","Abdul Manan",1,"Saba",5,4,6];
+var result= 0;
+for(var i=0; i<basketballteamplayernames.length; i++){
+
+    if (typeof(basketballteamplayernames[i])=="string"){
+
+        document.write(basketballteamplayernames[i]+"<br/>");
+    }else if(typeof(basketballteamplayernames[i]) == "number"){
+            result+=basketballteamplayernames[i];
+    }
+
+    // document.write(basketballteamplayernames[i]+"<br/>");
+}
+
+  document.write(result);
+
+// document.write(basketballteamplayernames.sort());
+// document.write(basketballteamplayernames[0]+"=="+basketballteamplayernames[6]+"<br/>");
+// document.write(basketballteamplayernames[2+1]+"<br/>");
+// document.write(basketballteamplayernames.length);
+
+
+//========for loop ===========
+/*
+syntax for(variable declaration; condition/loigic; iterative){
+
+    body of the loop
+}
+
+*/
+
+// var printtable =parseInt(prompt("enter any number to get table printing"));
+
+// for(var i=1; i<=10; i++){
+
+//     var result= printtable*i;
+
+//     document.write("this is your table====="+printtable+"*"+i+"=="+result+"<br/>");
+// }
+
+
+    </script>
+</body>
+</html>
