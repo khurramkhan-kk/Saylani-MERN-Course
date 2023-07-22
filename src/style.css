@@ -1,0 +1,16 @@
+#root{
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 300px;
+    width: 300px;
+    padding: 25px;
+    float: left;
+}
+
+#name {background-color: aqua;}
+
+#login {background-color: blueviolet; width: 100px; height: 45px;}
+
+#logout {background-color: yellowgreen; width: 100px; height: 45px;}
