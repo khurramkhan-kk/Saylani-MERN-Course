@@ -1,0 +1,52 @@
+/* #footer {background-color: aqua;}
+.p2 {background-color: blueviolet;}
+
+/* td > a {background-color: blueviolet;}
+
+p a {background-color: yellow;} 
+
+li  a {background-color: rgb(95, 228, 121); opacity: 0.8;}
+
+p {background-color: #ca4b4bee;}
+* {font-family: Georgia, 'Times New Roman', Times, serif;} */
+
+/* 25 July 2023 */
+
+.mycontent {width: 450px;
+height: 300px;
+background-color: brown;
+border-style: ridge;
+border-color: purple;
+
+border-radius: 55px;
+border-width: thick;
+}
+
+.p2{background-color: blueviolet;
+height: 100px; width:150px ;
+margin-left: 12px;
+padding-top: 12px;
+padding-left: 12px; 
+padding-right: 12px;
+margin-bottom: -12px;
+border-radius: 24px;
+border-style: double;
+border-width: thick;
+}
+
+h1{
+padding-left: 12px;}
+
+ul li {
+list-style: none;
+display: inline;
+margin: 12px;
+
+}
+
+
+
+li:hover {background-color: blueviolet; visibility: visible;}
+
+
+
