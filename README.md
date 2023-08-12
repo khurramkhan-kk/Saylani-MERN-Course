@@ -1,3 +1,38 @@
+React router steps========12 Aug 2023========
+Step 1:
+npm install react-router-dom
+
+To import some dependencies:
+
+Step 2:
+Index.js or app.js
+import { BrowserRouter, BrowserRouter as Router } from 'react-router-dom';
+
+
+import {Routes, Route} from 'react-router-dom';
+
+
+Step 3:
+
+
+<Routes>
+      <Route path='/' element={<Homepage/>}></Route>
+      <Route path='/login' element={<Login_page/>}></Route>
+      <Route path='/gallery' element={<Gallerywork/>}></Route>
+   </Routes>
+
+
+Step 4:
+
+<li><Link to="/"  >Home</Link></li>
+                <li><Link to="/login">Login here</Link></li>
+                <li><Link to="/gallery"> Gallery page</Link></li>
+
+Blog for reading:
+
+https://www.freecodecamp.org/news/how-to-use-react-router-version-6/![image](https://github.com/khurramkhan-kk/Saylani-MERN-Course/assets/9680491/46c68f4b-408e-4ace-a492-251316782620)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
